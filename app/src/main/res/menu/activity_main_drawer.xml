@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+        <item
+            android:id="@+id/nav_feed"
+            android:icon="@drawable/ic_feed"
+            android:title="Feeds" />
+        <item
+            android:id="@+id/nav_rescue"
+            android:icon="@drawable/ic_rescue"
+            android:title="Rescue" />
+        <item
+            android:id="@+id/nav_adoption"
+            android:icon="@drawable/ic_adopt"
+            android:title="Adoption" />
+        <item
+            android:id="@+id/nav_near_me"
+            android:icon="@drawable/ic_location"
+            android:title="Near Me" />
+        <item
+            android:id="@+id/nav_information"
+            android:icon="@drawable/ic_contact"
+            android:title="Information" />
+        <item
+            android:id="@+id/nav_suggestion"
+            android:icon="@drawable/ic_contact"
+            android:title="Suggestion" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="Profile" />
+</menu>

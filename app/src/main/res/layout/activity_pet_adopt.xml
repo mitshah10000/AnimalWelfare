@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PetAdoptActivity">
+
+    <ImageView
+        android:id="@+id/adopt_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/ic_back" />
+
+    <TextView
+        android:id="@+id/adopt_title"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="16dp"
+        android:text="Add Pet For Adoption"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:id="@+id/adopt_imageButton"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/rounded_corner"
+        android:contentDescription="TODO"
+        android:elevation="8dp"
+        android:src="@drawable/ic_add_image" />
+
+    <TextView
+        android:id="@+id/adopt_LocationtextView"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="255dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/rounded_corner"
+        android:drawableLeft="@drawable/ic_location"
+        android:drawablePadding="4dp"
+        android:elevation="8dp"
+        android:paddingLeft="8dp"
+        android:paddingTop="4dp" />
+
+    <EditText
+        android:id="@+id/adopt_petname"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="315dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/rounded_corner"
+        android:elevation="8dp"
+        android:hint="Pet Name"
+        android:inputType="textPersonName"
+        android:paddingLeft="8dp"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/adopt_pettype"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/rounded_corner_top"
+        android:elevation="8dp"
+        android:paddingLeft="8dp"
+        android:paddingTop="4dp"
+        android:text="Pet Type"
+        android:textAlignment="viewStart"
+        android:textSize="16sp" />
+
+    <Spinner
+        android:id="@+id/adopt_type_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/rounded_corner_bottom"
+        android:dropDownWidth="match_parent"
+        android:elevation="8dp"
+        android:spinnerMode="dropdown" />
+
+    <TextView
+        android:id="@+id/adopt_breed"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="445dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/rounded_corner_top"
+        android:elevation="8dp"
+        android:paddingLeft="8dp"
+        android:paddingTop="4dp"
+        android:text="Breed"
+        android:textAlignment="viewStart"
+        android:textSize="16sp" />
+
+    <Spinner
+        android:id="@+id/adopt_breed_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="475dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/rounded_corner_bottom"
+        android:dropDownWidth="match_parent"
+        android:elevation="8dp"
+        android:spinnerMode="dropdown" />
+
+    <TextView
+        android:id="@+id/adopt_dob"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/rounded_corner_top"
+        android:elevation="8dp"
+        android:paddingLeft="8dp"
+        android:paddingTop="4dp"
+        android:text="Date of Birth"
+        android:textAlignment="viewStart"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/adopt_add_dob"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/rounded_corner_bottom"
+        android:clickable="true"
+        android:elevation="8dp"
+        android:focusable="false"
+        android:inputType="date"
+        android:paddingLeft="8dp" />
+
+    <TextView
+        android:id="@+id/adopt_textview"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="595dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/rounded_corner_top"
+        android:elevation="8dp"
+        android:paddingLeft="8dp"
+        android:paddingTop="4dp"
+        android:text="Any mark on body?"
+        android:textAlignment="viewStart"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/adopt_mark_body"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="625dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/rounded_corner_bottom"
+        android:elevation="8dp"
+        android:inputType="text"
+        android:paddingLeft="8dp" />
+
+    <CheckBox
+        android:id="@+id/post_checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="665dp"
+        android:layout_marginRight="20dp"
+        android:buttonTint="#00868b"
+        android:text="Share contact number with interested people." />
+
+    <Button
+        android:id="@+id/adopt_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="710dp"
+        android:layout_marginRight="25dp"
+        android:background="#00868b"
+        android:text="Submit"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>

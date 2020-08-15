@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cards_feed"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:elevation="8dp"
+    app:cardBackgroundColor="#ffffff"
+    app:cardCornerRadius="3mm">
+
+    <TextView
+        android:id="@+id/cards_username"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="16dp"
+        android:textColor="#00868b"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/cards_imageview"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginRight="16dp"
+        android:contentDescription="TODO" />
+
+    <TextView
+        android:id="@+id/cards_issue"
+        android:layout_width="50dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="270dp"
+        android:text="Issue : "
+        android:textColor="#000000"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/cards_issue2"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginRight="16dp" />
+
+    <TextView
+        android:id="@+id/cards_location"
+        android:layout_width="75dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginRight="16dp"
+        android:text="Location : "
+        android:textColor="#000000"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/cards_location2"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginRight="16dp"
+        android:minLines="2" />
+
+    <TextView
+        android:id="@+id/cards_landmark"
+        android:layout_width="85dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginRight="16dp"
+        android:text="Landmark : "
+        android:textColor="#000000"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/cards_landmark2"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginRight="16dp" />
+
+    <TextView
+        android:id="@+id/cards_description"
+        android:layout_width="95dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="390dp"
+        android:layout_marginRight="16dp"
+        android:text="Description : "
+        android:textColor="#000000"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/cards_description2"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="390dp"
+        android:layout_marginRight="16dp"
+        android:maxLines="3" />
+
+    <TextView
+        android:id="@+id/cards_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="16dp" />
+
+
+</android.support.v7.widget.CardView>

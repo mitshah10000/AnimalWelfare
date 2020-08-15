@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "451545398275",
+    "firebase_url": "https://animalwelfare-1dfac.firebaseio.com",
+    "project_id": "animalwelfare-1dfac",
+    "storage_bucket": "animalwelfare-1dfac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:451545398275:android:455558d7499e8aaa",
+        "android_client_info": {
+          "package_name": "com.example.animalwelfare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "451545398275-87f3hb4gtps0ug45sk842kvgs8dr72jd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.animalwelfare",
+            "certificate_hash": "61469e0e7a2848794e11371924ad3f7f4fc61a8c"
+          }
+        },
+        {
+          "client_id": "451545398275-i9gjpf5jh9nhv5hgpu55lbttarcmjj85.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfvcaqTZ6glwZAw0H9aiV1u_i_fSGlB6U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "451545398275-i9gjpf5jh9nhv5hgpu55lbttarcmjj85.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
